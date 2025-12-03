@@ -1,8 +1,8 @@
-# MindNLP 模型优化详细说明 (DeepSeek & Qwen2-MoE)
+# MindNLP 模型优化详细说明 (DeepseekMoE & Qwen2-MoE)
 
-本文档详细记录了针对 DeepSeek 和 Qwen2-MoE 模型的关键性能优化点，并附带了相应的核心代码实现。
+本文档详细记录了针对 DeepseekMoE 和 Qwen2-MoE 模型的关键性能优化点，并附带了相应的核心代码实现。
 
-## 1. DeepSeek 模型优化 (DeepseekMoE)
+## 1. DeepseekMoE 模型优化
 
 ### 1.1 MoE 推理加速：Decode 阶段 (消除 Host-Device 同步)
 
